@@ -1,0 +1,16 @@
+[package]
+name = "git-purge"
+version = "0.1.0"
+edition = "2024"
+repository = "https://github.com/mariocampacci/git-purge"
+
+[dependencies]
+clap = "4.5.53"
+
+[dev-dependencies]
+cargo-husky = { version = "1.5.0", default-features = false, features = ["precommit-hook", "run-cargo-test", "run-cargo-clippy", "run-cargo-fmt"] }
+
+# The profile that 'dist' will build with
+[profile.dist]
+inherits = "release"
+lto = "thin"

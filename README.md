@@ -4,6 +4,18 @@ Git extension to purge stale local branches deleted from remote.
 
 ## Installation
 
+### npm
+
+```sh
+npm install -g git-purge
+```
+
+### Homebrew
+
+```sh
+brew install mariocampacci/tap/git-purge
+```
+
 ### Manual (macOS/Linux)
 
 Note: Requires `rust`, `cargo`, `make` and `git` to be installed.
@@ -31,6 +43,8 @@ git purge
 ## Uninstall
 
 ```sh
+npm uninstall -g git-purge  # if installed via npm
+# or
 brew uninstall git-purge  # if installed via brew
 # or
 sudo make uninstall       # if installed manually

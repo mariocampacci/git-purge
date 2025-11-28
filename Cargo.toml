@@ -3,6 +3,8 @@ name = "git-purge"
 version = "0.1.0"
 edition = "2024"
 repository = "https://github.com/mariocampacci/git-purge"
+description = "Git extension to purge stale local branches deleted from remote."
+homepage = "https://github.com/mariocampacci/git-purge"
 
 [dependencies]
 clap = "4.5.53"

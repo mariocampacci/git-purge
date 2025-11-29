@@ -1,62 +1,40 @@
-# git purge
+# git-purge 🚀
 
-Git extension to purge stale local branches deleted from remote.
+[![GitHub release](https://img.shields.io/github/v/release/mariocampacci/git-purge?style=flat-square)](https://github.com/mariocampacci/git-purge/releases)
+[![CI](https://github.com/mariocampacci/git-purge/actions/workflows/release.yml/badge.svg)](https://github.com/mariocampacci/git-purge/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
+[![Docs](https://img.shields.io/badge/docs-GitHub%20Pages-blue?style=flat-square)](https://mariocampacci.github.io/git-purge/)
 
-## Installation
+> 🧹 **git-purge**: Effortlessly clean up stale local branches deleted from remote.
 
-### npm
+---
 
-```sh
-npm install -g git-purge
-```
+## ✨ Features
 
-### Homebrew
+- 🔥 Instantly purge branches gone from remote
+- 🦀 Written in Rust — super fast
+- 🛠️ Safe, dry-run mode
+- 🤩 Easy to use
+- 🏷️ Integrates with your Git workflow
 
-```sh
-brew install mariocampacci/tap/git-purge
-```
+---
 
-### Manual (macOS/Linux)
+## 🚀 Quick Start
 
-Note: Requires `rust`, `cargo`, `make` and `git` to be installed.
+Install via any JS package manager (**npm**, **yarn**, **pnpm**) or **Homebrew**.
 
-```sh
-git clone https://github.com/mariocampacci/git-purge.git
-cd git-purge
-sudo make install
-```
+📖 **Full instructions, usage, and options:**  
+👉 [Read the Documentation](https://mariocampacci.github.io/git-purge/)
 
-## Usage
+---
 
-```sh
-git purge
-``` 
+## 🤝 Contributing
 
-### Options
+Found a bug or have an idea?  
+Open an issue or pull request on [GitHub](https://github.com/mariocampacci/git-purge)!
 
-- `-f, --force` - Force delete branches
-- `-n, --dry-run` - Show what would be deleted without actually deleting
-- `-v, --verbose` - Show detailed output
-- `-V, --version` - Show version
-- `-h` - Show help message
+---
 
-## Uninstall
+## 📄 License
 
-```sh
-npm uninstall -g git-purge  # if installed via npm
-# or
-brew uninstall git-purge  # if installed via brew
-# or
-sudo make uninstall       # if installed manually
-```
-
-## Contributing
-Contributions are welcome! Please open issues and pull requests on GitHub.
-
-### Setting up development environment
-You need to have `rust`, `cargo`, and `make` installed.
-
-After this, your environment will be ready for development.
-
-## License
-MIT License. See `LICENSE` file for details.
+MIT License. See the [`LICENSE`](LICENSE) file for details.
